@@ -189,7 +189,7 @@ def big_shoe_rebounds
   max_shoe = nil
   game_hash.each do |key, value|
     value[:players].each do |stats|
-     if max_shoe == nil || stats > max_value
+     if max_shoe == nil || stats[:shoe] > max_value
       max_value = stats
     end
     end
