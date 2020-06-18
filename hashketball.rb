@@ -192,9 +192,10 @@ def big_shoe_rebounds (person)
      if max_shoe == nil || stats[:shoe] > max_value
       max_value = stats
     end
-        return person[:rebounds]
+
     end
   end
+          return person[:rebounds]
 end
 
 # Write code here
