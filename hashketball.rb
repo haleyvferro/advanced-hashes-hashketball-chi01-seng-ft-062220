@@ -186,15 +186,18 @@ def player_stats (player)
 end
 
 def big_shoe_rebounds
+  rebownds = 0
   max_shoe = 0
   game_hash.each do |key, value|
     value[:players].each do |stats|
      if max_shoe == 0 || stats[:shoe] > max_shoe
       max_shoe = stats[:shoe]
+      rebownds = stats[:rebounds]
     end
     end
+    puts rebownds
   end
-    puts stats[:rebounds]
+
 end
 
 # Write code here
