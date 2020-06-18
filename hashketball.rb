@@ -195,9 +195,8 @@ def big_shoe_rebounds
       rebounds = stats[:rebounds]
     end
     end
-    rebounds
   end
-
+    rebounds
 end
 
 # Write code here
