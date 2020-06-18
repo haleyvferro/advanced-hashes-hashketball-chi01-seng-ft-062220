@@ -185,7 +185,7 @@ def player_stats (player)
   statsss
 end
 
-def big_shoe_rebounds (person)
+def big_shoe_rebounds
   max_shoe = 0
   game_hash.each do |key, value|
     value[:players].each do |stats|
@@ -194,7 +194,7 @@ def big_shoe_rebounds (person)
     end
     end
   end
-    return person[:rebounds]
+    return stats[:rebounds]
 end
 
 # Write code here
