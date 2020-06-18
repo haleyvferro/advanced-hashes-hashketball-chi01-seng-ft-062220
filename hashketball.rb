@@ -194,7 +194,7 @@ def big_shoe_rebounds
     end
     end
   end
-    return stats[:rebounds]
+    puts stats[:rebounds]
 end
 
 # Write code here
